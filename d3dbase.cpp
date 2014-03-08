@@ -519,7 +519,7 @@ void D3DBase::setBackBufferRenderTarget()
     m_deviceContext->OMSetRenderTargets(1, m_renderTargetView.GetAddressOf(), m_depthStencilView.Get());
 }
 
-void D3DBase::resetViewport(float width, float height)
+void D3DBase::resizeBuffers(float width, float height)
 {
     if (m_swapChain)
     {

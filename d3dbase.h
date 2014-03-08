@@ -64,7 +64,7 @@ public:
     void turnZBufferOn();
     void turnZBufferOff();
 
-    void resetViewport(float width, float height);
+    void resizeBuffers(float width, float height);
 
 private:
     bool m_vsyncEnabled;

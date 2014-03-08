@@ -85,7 +85,7 @@ bool QDXWidget::event(QEvent *event)
 void QDXWidget::resizeEvent(QResizeEvent *event)
 {
     Q_UNUSED(event);
-    m_d3d->resetViewport(width(), height());
+    m_d3d->resizeBuffers(width(), height());
 }
 
 
