@@ -12,9 +12,9 @@
 #ifndef QDXWIDGET_H
 #define QDXWIDGET_H
 
-#include "d3dbase.h"
-
 #include <QWidget>
+
+class D3DBase;
 
 class QDXWidget : public QWidget
 {

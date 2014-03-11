@@ -10,6 +10,7 @@
 */
 
 #include "qdxwidget.h"
+#include "d3dbase.h"
 
 #include <QApplication>
 #include <QResizeEvent>
